@@ -8,6 +8,7 @@
 <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="../assets/css/screen.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/nav.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400%7CInconsolata">
 <meta name="theme-color" content="#5670d4">
@@ -34,13 +35,10 @@
     </a>
     <ul>
 <li class="nav-opened" role="presentation">
-                <a href="../archive.html">Archive</a>
+                <a href="../">Home Page</a>
             </li>
             <li class="nav-opened" role="presentation">
-                <a href="../categories/">Tags</a>
-            </li>
-            <li class="nav-opened" role="presentation">
-                <a href="../rss.xml">RSS feed</a>
+                <a href="https://forms.gle/HerCma8fKrJUHg3V7">Note Submission Form</a>
             </li>
     
     
@@ -49,7 +47,7 @@
 <span class="nav-cover"></span>
 
 <div class="site-wrapper">
-    <header class="main-header post-head no-cover"><nav class="main-nav overlay clearfix"><a class="blog-logo" href="https://www.thenotebuyingcat.com/"><img src="../images/logo.png" alt="Blog Logo"></a>
+    <header class="main-header post-head no-cover"><nav class="main-nav overlay clearfix"><a class="blog-logo" href="https://www.thenotebuyingcat.com/"><img src="../images/postcard_logo_cropped.jpg" alt="Blog Logo"></a>
             <a class="menu-button" href="#"><span class="burger">☰</span><span class="word">Menu</span></a>
         </nav></header><main id="content" class="content" role="main"><nav class="breadcrumbs"><ul class="breadcrumb">
 <li>galleries</li>
@@ -57,17 +55,32 @@
 
 <div id="gallery_container"></div>
 <noscript>
-<ul class="thumbnails"><li>
+<ul class="thumbnails">
+<li>
 <a href="cats_house.jpg" class="thumbnail image-reference" title="Cats house">
             <img src="cats_house.thumbnail.jpg" alt="Cats house" loading="lazy"></a>
-</li></ul>
+        </li>
+<li>
+<a href="cats_background_large.jpg" class="thumbnail image-reference" title="Cats background large">
+            <img src="cats_background_large.thumbnail.jpg" alt="Cats background large" loading="lazy"></a>
+        </li>
+<li>
+<a href="silk-road.jpg" class="thumbnail image-reference" title="Silk road">
+            <img src="silk-road.thumbnail.jpg" alt="Silk road" loading="lazy"></a>
+        </li>
+<li>
+<a href="cat_in_box.jpg" class="thumbnail image-reference" title="Cat in box">
+            <img src="cat_in_box.thumbnail.jpg" alt="Cat in box" loading="lazy"></a>
+</li>
+</ul>
 </noscript>
 
-    </main><footer class="site-footer clearfix"><section class="poweredby">Contents © 2020         <a href="mailto:thenotebuyingcat@gmail.com">The Notebuying Cat</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </section></footer>
+    </main><footer class="site-footer clearfix"><section class="poweredby">Contents © 2020         <a href="mailto:thenotebuyingcat@gmail.com">The Notebuying Cat</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</section></footer>
 </div>
 
     <script type="text/javascript" src="../assets/js/jquery.js"></script><script type="text/javascript" src="../assets/js/jquery.fitvids.js"></script><script type="text/javascript" src="../assets/js/index.js"></script><script src="../assets/js/justified-layout.min.js"></script><script src="../assets/js/gallery.min.js"></script><script>
-var jsonContent = [{"custom": "A house of cats", "height": 144, "size": {"h": 144, "w": 180}, "title": "Cats house", "url": "cats_house.jpg", "url_thumb": "cats_house.thumbnail.jpg", "width": 180}];
+var jsonContent = [{"custom": "A house of cats", "height": 144, "size": {"h": 144, "w": 180}, "title": "Cats house", "url": "cats_house.jpg", "url_thumb": "cats_house.thumbnail.jpg", "width": 180}, {"custom": "An exterior house of cats", "height": 120, "size": {"h": 120, "w": 180}, "title": "Cats background large", "url": "cats_background_large.jpg", "url_thumb": "cats_background_large.thumbnail.jpg", "width": 180}, {"height": 120, "size": {"h": 120, "w": 180}, "title": "Silk road", "url": "silk-road.jpg", "url_thumb": "silk-road.thumbnail.jpg", "width": 180}, {"height": 120, "size": {"h": 120, "w": 180}, "title": "Cat in box", "url": "cat_in_box.jpg", "url_thumb": "cat_in_box.thumbnail.jpg", "width": 180}];
 var thumbnailSize = 180;
 renderGallery(jsonContent, thumbnailSize);
 window.addEventListener('resize', function(){renderGallery(jsonContent, thumbnailSize)});

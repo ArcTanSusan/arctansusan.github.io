@@ -861,27 +861,26 @@ body.nav-opened .nav {
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
-  display: block;
+  display: flex;
   position: absolute;
-  z-index: 100;
-  bottom: 45px;
+  bottom: 35px;
   left: 50%;
   margin-left: -16px;
-  width: 34px;
   height: 34px;
-  font-size: 44px;
-  text-align: center;
+  font-size: 4rem;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: green;
+  font-weight: 800;
   -webkit-animation: bounce 4s 2s infinite;
   animation: bounce 4s 2s infinite;
 }
 
 /* Stop it bouncing and increase contrast when hovered */
 .scroll-down:hover {
-  color: #fff;
+  color: black;
   -webkit-animation: none;
   animation: none;
+  text-decoration: none;
 }
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible

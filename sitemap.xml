@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://www.notebuyingcat.com/</loc>
-  <lastmod>2020-10-10T00:51:00Z</lastmod>
+  <lastmod>2020-10-23T15:53:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.notebuyingcat.com/2020/</loc>
+  <lastmod>2020-10-23T15:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.notebuyingcat.com/archive.html</loc>
-  <lastmod>2020-10-23T05:59:00Z</lastmod>
+  <lastmod>2020-10-23T15:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.notebuyingcat.com/categories/</loc>
@@ -28,5 +32,9 @@
  <url>
   <loc>https://www.notebuyingcat.com/pages/we-buy-mortgages-in-cash/</loc>
   <lastmod>2020-10-10T00:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.notebuyingcat.com/posts/note-submission-form/</loc>
+  <lastmod>2020-10-23T15:53:00Z</lastmod>
  </url>
 </urlset>

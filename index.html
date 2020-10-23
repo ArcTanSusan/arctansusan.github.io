@@ -372,15 +372,19 @@
                 <div class="kwes-form">
                     <form method="POST" action="https://kwes.io/api/foreign/forms/NITBKcJyB2yuLIeDBXfq" mode="test">
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <div class="kw-floating-label-wrapper">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
                             <label for="name">Your Name</label>
                             <input type="text" name="name" rules="required|max:255">
                             <label for="title">Email Title</label>
                             <input type="text" name="title" rules="required|max:255">
-                            <label for="body">Body</label>
-                            <textarea class="form-control" name="body" id="formControlTextarea1" rows="5" rules="required"></textarea>
+                            <div class="kw-floating-label-wrapper">
+                                <label for="body">Body</label>
+                                <textarea class="form-control" name="body" id="formControlTextarea1" rows="5" rules="required"></textarea>
+                            </div>
                         </div>
                         <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
                     </form>

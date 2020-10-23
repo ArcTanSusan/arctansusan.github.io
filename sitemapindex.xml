@@ -6,15 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://www.thenotebuyingcat.com/galleries/rss.xml</loc>
-  <lastmod>2020-10-05T05:35:00Z</lastmod>
+  <loc>https://www.notebuyingcat.com/galleries/rss.xml</loc>
+  <lastmod>2020-10-23T05:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://www.thenotebuyingcat.com/rss.xml</loc>
+  <loc>https://www.notebuyingcat.com/rss.xml</loc>
   <lastmod>2020-10-04T18:25:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://www.thenotebuyingcat.com/sitemap.xml</loc>
-  <lastmod>2020-10-05T05:35:00Z</lastmod>
+  <loc>https://www.notebuyingcat.com/sitemap.xml</loc>
+  <lastmod>2020-10-23T05:08:00Z</lastmod>
  </sitemap>
 </sitemapindex>

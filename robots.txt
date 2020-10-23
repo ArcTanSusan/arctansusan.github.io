@@ -1,4 +1,4 @@
-Sitemap: https://www.thenotebuyingcat.com/sitemapindex.xml
+Sitemap: https://www.notebuyingcat.com/sitemapindex.xml
 
 User-Agent: *
-Host: www.thenotebuyingcat.com
+Host: www.notebuyingcat.com
